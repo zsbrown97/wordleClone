@@ -1,12 +1,7 @@
 <script>
-  import { board, colors, createGrid, gameInfo, gameOver, GAME_WORD, guess } from "../store";
+  import { board, colors, createGrid, gameInfo, gameOver, GAME_WORD, guess, wordsList } from "../store";
 
   const playAgain = () => {
-
-    const wordsList = ['COLOR', 'GREET', 'GRUMP', 'YIELD', 'BREAK', 'TRUST',
-      'GREAT', 'QUEST', 'FOCUS', 'DELTA', 'CAUSE', 'REACT', 'TREAT', 'FIRST',
-      'TESLA', 'PARSE'];
-    
     const word = wordsList[Math.floor(Math.random() * wordsList.length)];
     GAME_WORD.set(word);
     

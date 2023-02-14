@@ -20,3 +20,8 @@ export const gameInfo = writable({
 export const gameOver = writable(false);
 export const GAME_WORD = writable("HELLO");
 export const guess = writable("");
+
+export const wordsList = ['COLOR', 'GREET', 'GRUMP', 'YIELD', 'BREAK', 'TRUST',
+      'GREAT', 'QUEST', 'FOCUS', 'DELTA', 'CAUSE', 'REACT', 'TREAT', 'FIRST',
+      'TESLA', 'PARSE'];
+      

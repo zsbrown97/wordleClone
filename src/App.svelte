@@ -15,7 +15,9 @@
 
 
   {#if $gameOver}
-    <GameOver />
+    <div>
+      <GameOver />
+    </div>
   {:else}
     <div in:fade={{duration: 800}}>
       <Board />
